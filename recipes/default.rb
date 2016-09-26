@@ -5,3 +5,5 @@
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
 include_recipe 'users::sysadmins'
+
+directory '/home/david/code'

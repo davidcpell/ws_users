@@ -8,3 +8,7 @@
 describe user('david') do
   it { should exist }
 end
+
+describe directory('/home/david') do 
+  it { should exist }
+end
